@@ -1,0 +1,37 @@
+{
+  "name": "nodegui-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Atul R <atulanand94@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack -p",
+    "start": "webpack && qode ./dist/index.js",
+    "debug": "webpack && qode --inspect ./dist/index.js"
+  },
+  "dependencies": {
+    "@nodegui/nodegui": "^0.30.1",
+    "axios": "^0.21.1",
+    "dialog-node": "^0.2.1",
+    "fetch-ponyfill": "^7.1.0",
+    "file-dialog": "^0.0.8",
+    "findit": "^2.0.0",
+    "node-fetch": "^2.6.1",
+    "open-file-explorer": "^1.0.2",
+    "prompt-sync": "^4.2.0",
+    "whatwg-fetch": "^3.6.2",
+    "xlsx": "^0.16.9"
+  },
+  "devDependencies": {
+    "@nodegui/packer": "^1.4.1",
+    "@types/node": "^14.14.31",
+    "clean-webpack-plugin": "^3.0.0",
+    "file-loader": "^6.2.0",
+    "native-addon-loader": "^2.0.1",
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.2.2",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
